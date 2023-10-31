@@ -15,7 +15,6 @@ func sumLocations(locations):
     return [sum.x, sum.y]
 
 func _ready():
-    var locations = [Vector2(16, 3), Vector2(22, 10), Vector2(4, 56), Vector2(10, 5)]
-    var r = sumLocations(locations)
+    var r = sumLocations([Vector2(16, 3), Vector2(22, 10), Vector2(4, 56), Vector2(10, 5)])
 
     print("mi cabeza penso mucho este ejercicio :(, igualmente el resultado es: ", r) 
